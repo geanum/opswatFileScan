@@ -2,7 +2,7 @@
   "name": "opswatchallenge",
   "version": "1.0.0",
   "description": "This solution allows users to scan files using OPSWAT's Metadefender API, giving them vital scan results on the specified file. ",
-  "main": "main.js",
+  "scan": "scan.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
