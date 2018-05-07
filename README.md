@@ -33,6 +33,8 @@ Example: sample.txt is the target file
   node scan.js sample.txt
 ```
 
+Returning the desired scan results may take a couple of seconds depending on network latency.
+
 # Methodology
 The methodology closely follows the logical steps outlined in the original problem description:
 
