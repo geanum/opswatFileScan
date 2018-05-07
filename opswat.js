@@ -3,7 +3,7 @@ const axios = require('axios');
 const OpswatAPI = {
 
   baseUrl: 'https://api.metadefender.com/v2',
-  apiKey: 'aa67a4542ea7a3164ac3260dca8342b1',  // place your API key here (keep quotes and comma)
+  apiKey: 'YOUR_API_KEY',  // place your API key here (keep quotes and comma)
 
 
   getHashLookup: function(hash) {
