@@ -89,3 +89,5 @@ One instructive moment I had was when I was creating this functionality. Origina
 - I kept all HTTP requests in `opswat.js` to keep things organized and essentially make a small OPSWAT API library for my uses.
 - I made use of promises to keep code cleaner (I usually try to avoid a bunch of nested callbacks.)
 - I decided to use Axios, an HTTP request library, to perform all requests because it's simple to use and supports promises right out of the box.
+- I used the native Node libraries `fs` for accessing the file system, and `crypto` for hashing the files.
+- More indepth methodology of each step can be found in their respective functions
