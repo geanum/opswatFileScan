@@ -22,10 +22,6 @@ const main = () => {
   .then((hash) => OpswatAPI.getHashLookup(hash))
 
   .then((response) => {
-    if (!response) {
-      console.log('Something went wrong! Are you sure you put in a correct API key?');
-      return Promise.reject('Invalid server response');
-    }
     if (response.file_id) // if results already available
       return response;
     else { // else scan file

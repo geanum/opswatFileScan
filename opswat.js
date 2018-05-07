@@ -20,7 +20,8 @@ const OpswatAPI = {
     .then((response) => response.data)
     
     .catch((error) => {
-      return Promise.reject(error);
+      console.log('Something went wrong! Are you sure you put in a correct API key?');
+      return Promise.reject('Invalid server response');
     });
   },
 
@@ -38,7 +39,7 @@ const OpswatAPI = {
     .then((response) => response.data)
     
     .catch((error) => {
-      return Promise.reject(error);
+      return Promise.reject('Invalid server response');
     });
   },
 
@@ -57,7 +58,7 @@ const OpswatAPI = {
     .then((response) => response.data)
     
     .catch((error) => {
-      return Promise.reject(error);
+      return Promise.reject('Invalid server response');
     });
   }
 }
