@@ -22,6 +22,8 @@ You should place your API key on `opswat.js:6`.
   ...
 ```
 
+I've successfully tested and ran the solution on both MacOS Sierra and Ubuntu 16.04. I've yet to test Windows, but it should work as well given the proper Node environment.
+
 # Running the Solution
 
 To scan a file simply input the name of the file (or its path) as a command line argument when you're running `scan.js`.
@@ -30,6 +32,8 @@ Example: sample.txt is the target file
 ```
   node scan.js sample.txt
 ```
+
+Returning the desired scan results may take a couple of seconds depending on network latency.
 
 # Methodology
 The methodology closely follows the logical steps outlined in the original problem description:
