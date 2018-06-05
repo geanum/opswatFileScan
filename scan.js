@@ -22,7 +22,8 @@ const main = () => {
   .then((hash) => OpswatAPI.getHashLookup(hash))
 
   .then((response) => {
-    if (response.file_id) // if results already available
+    console.log(response);
+    if (response.data_id) // if results already available
       return response;
     else { // else scan file
       return scanFile(targetFile); 
